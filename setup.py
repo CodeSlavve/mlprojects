@@ -15,7 +15,7 @@ def get_requirements(file_path:str)->List[str]:
             requirements.remove(HYPHEN_E_DOT)
 
 setup(
-    namr = 'mlprojects',
+    name = 'mlprojects',
     version='0.0.1',
     author='Yash Verma',
     packages=find_packages(),
