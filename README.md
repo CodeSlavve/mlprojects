@@ -27,7 +27,7 @@ This repository documents my journey as I build practical ML applications.
 | Project | Description | Technologies | Live Demo | Status |
 |----------|-------------|--------------|-----------|--------|
 | Student Score Prediction | Predicts student exam scores using machine learning regression models. | Python, Flask, Scikit-learn, Pandas | https://student-score-prediction-9mmm.onrender.com | Completed |
-| Customer Churn Prediction | Predicts customer churn using ANN classification models. | Python, Streamlit, Scikit-learn, Tensorflow, Keras, Pandas | coming soon... | Completed [deployment remaining] |
+| Customer Churn Prediction | Predicts customer churn using ANN classification models. | Python, Streamlit, Scikit-learn, Tensorflow, Keras, Pandas | https://customer-churn-prediction-9mmm.onrender.com | Completed |
 
 ---
 
