@@ -4,9 +4,15 @@ import tensorflow as tf
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 import pandas as pd
 import pickle
+import os
+from tensorflow.keras.models import load_model
 
-# Load ANN model
-model = tf.keras.models.load_model('model.h5')
+# Get the directory where app.py is located
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(BASE_DIR, 'model.h5') # Or 'models/model.h5' if it's in a subfolder
+
+# Load the model safely
+model = load_model(MODEL_PATH)  
 
 # Load encoders and scaler
 with open('ohe_geo.pkl', 'rb') as file:
