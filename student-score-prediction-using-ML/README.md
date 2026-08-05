@@ -9,7 +9,7 @@ Tech stack
 - HTML/CSS (Jinja2 templates)
 
 Access
-https://student-score-prediction-5way.onrender.com/
+https://student-score-prediction-9mmm.onrender.com/
 
 Project layout
 - app.py - Flask application and routes
