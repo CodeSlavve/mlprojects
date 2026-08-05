@@ -26,7 +26,8 @@ This repository documents my journey as I build practical ML applications.
 
 | Project | Description | Technologies | Live Demo | Status |
 |----------|-------------|--------------|-----------|--------|
-| Student Score Prediction | Predicts student exam scores using machine learning regression models. | Python, Flask, Scikit-learn, Pandas | https://student-score-prediction-9mmm.onrender.com | ✅ Completed |
+| Student Score Prediction | Predicts student exam scores using machine learning regression models. | Python, Flask, Scikit-learn, Pandas | https://student-score-prediction-9mmm.onrender.com | Completed |
+| Customer Churn Prediction | Predicts customer churn using ANN classification models. | Python, Streamlit, Scikit-learn, Tensorflow, Keras, Pandas | coming soon... | Completed [deployment remaining] |
 
 ---
 
@@ -42,6 +43,8 @@ This repository documents my journey as I build practical ML applications.
 - Scikit-learn
 - XGBoost
 - CatBoost
+- Tensorflow
+- Keras
 
 ### Data Analysis
 
@@ -69,8 +72,10 @@ This repository documents my journey as I build practical ML applications.
 ```text
 mlprojects/
 │
-├── student-score-prediction-using-ML/
+├── customer-churn-prediction-using-ANN/
 │
+├── student-score-prediction-using-ML/
+|
 ├── More projects (coming soon)
 │
 └── README.md
@@ -121,7 +126,8 @@ Deployment
 
 # Current Progress
 
-- Student Score Prediction
+- Student Score Prediction [regression PS, with ML]
+- Customer Churn Prediciton [classification PS, with ANN]
 - More projects coming soon...
 
 ---
@@ -151,4 +157,4 @@ The objective of this repository is to build a comprehensive collection of pract
 - GitHub: https://github.com/CodeSlave
 - Gmail: yash06763@gmail.com
 
-If you found these projects helpful, consider giving the repository a ⭐.
+If you found these projects helpful, consider giving the repository a `star`.
